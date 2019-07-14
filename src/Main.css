@@ -1,0 +1,179 @@
+body {
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#hundre {
+  font-family: "Roboto", sans-serif;
+}
+
+.Frontpage {
+  text-align: center;
+  background-color: #282c34;
+  height: 140vh;
+  justify-content: center;
+  font-size: calc(44px + 2vmin);
+  color: white;
+}
+
+.Frontpage-header {
+  padding-top: 40px;
+  line-height: 60%;
+  margin-bottom: 40px;
+}
+
+#fronttekst,
+#fronttekst2 {
+  font-size: 30px;
+}
+
+#velg1 {
+  height: auto;
+  width: 350px;
+}
+#velg2 {
+  height: auto;
+  width: 100px;
+}
+
+.tilbake {
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.start {
+  width: 200px;
+  height: 80px;
+  font-size: 2rem;
+}
+
+.topmargin {
+  margin-top: 40px;
+}
+
+.tilbakemenu {
+  margin-top: 90px;
+}
+
+.App {
+  text-align: center;
+  background-color: #282c34;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(70px + 2vmin);
+  color: white;
+}
+
+.App-header {
+  line-height: 60%;
+  margin-bottom: 40px;
+}
+
+.undertittel {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.Spill {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.kort {
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+  transition: -webkit-transform 0.5s;
+}
+
+.kortAnimation {
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+}
+
+.fortsett {
+  font-size: 25px;
+  height: 70px;
+  margin: auto;
+}
+
+.gif {
+  height: auto;
+  width: 90%;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.appstore {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+#meg {
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #c8f9b3;
+  -webkit-animation: colorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: #c8f9b3;
+  }
+
+  10% {
+    color: #8e44ad;
+  }
+
+  20% {
+    color: #1abc9c;
+  }
+
+  30% {
+    color: #d35400;
+  }
+
+  40% {
+    color: #c8f9b3;
+  }
+
+  50% {
+    color: #c249e0;
+  }
+
+  60% {
+    color: #c8f9b3;
+  }
+
+  70% {
+    color: #2980b9;
+  }
+  80% {
+    color: #f1c40f;
+  }
+
+  90% {
+    color: #2980b9;
+  }
+
+  100% {
+    color: pink;
+  }
+}
